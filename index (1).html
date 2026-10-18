@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ClauseGuard — Freelance Contract Red-Flag Checker</title>
+<meta name="description" content="Paste a freelance or contractor agreement and get plain-English flags for risky clauses. 100% private — nothing leaves your browser.">
+<style>
+  :root{
+    --navy:#0f2742; --navy2:#163a5f; --gold:#c9a227; --gold-soft:#f3e9c8;
+    --ink:#1c2b3a; --muted:#5b6b7d; --bg:#f6f8fb; --card:#ffffff; --line:#e2e8f0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  .wrap{max-width:1020px;margin:0 auto;padding:0 1.25rem}
+  header.hero{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:3rem 1.25rem 3.5rem;text-align:center}
+  .brand{display:inline-flex;align-items:center;gap:.7rem;margin-bottom:1.2rem}
+  .logo{width:44px;height:44px;border-radius:10px;background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.25rem}
+  .brand strong{font-size:1.3rem}
+  h1{font-size:2.4rem;margin:.4rem 0 .8rem;line-height:1.2;max-width:700px;margin-left:auto;margin-right:auto}
+  .hero p.lead{color:#cfdae8;font-size:1.1rem;max-width:640px;margin:0 auto 1.6rem}
+  .btn{display:inline-block;border:0;border-radius:10px;padding:.85rem 1.8rem;font-size:1rem;font-weight:700;cursor:pointer;text-decoration:none}
+  .btn-gold{background:var(--gold);color:var(--navy)}
+  .btn-gold:hover{filter:brightness(1.06)}
+  .pills{margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center}
+  .pill{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;font-size:.82rem;padding:.32rem .8rem;border-radius:999px}
+  section{padding:2.6rem 0}
+  h2{font-size:1.5rem;color:var(--navy);margin:0 0 1rem;text-align:center}
+  .sub{text-align:center;color:var(--muted);max-width:640px;margin:0 auto 1.8rem}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+  @media(max-width:760px){.grid3{grid-template-columns:1fr} h1{font-size:1.8rem}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.4rem;box-shadow:0 6px 24px rgba(15,39,66,.06)}
+  .card h3{margin:.2rem 0 .5rem;color:var(--navy);font-size:1.05rem}
+  .card p{margin:.3rem 0;color:var(--muted);font-size:.94rem}
+  .num{display:inline-flex;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;align-items:center;justify-content:center;font-weight:800;margin-bottom:.6rem}
+  .checks{display:grid;grid-template-columns:1fr 1fr;gap:.6rem 1.4rem;max-width:760px;margin:0 auto}
+  @media(max-width:600px){.checks{grid-template-columns:1fr}}
+  .checks div{background:#fff;border:1px solid var(--line);border-radius:9px;padding:.6rem .9rem;font-size:.93rem}
+  .checks div::before{content:"✓ ";color:#1d6b3c;font-weight:800}
+  .privacy{background:var(--navy);color:#fff;border-radius:16px;padding:2.2rem;margin:0 auto;max-width:1020px}
+  .privacy h2{color:#fff}
+  .privacy p{color:#cfdae8;max-width:680px;margin:0 auto 1rem;text-align:center}
+  .cta{background:var(--gold-soft);border:1px solid #e8cf7a;border-radius:16px;padding:2.2rem;text-align:center;max-width:1020px;margin:0 auto}
+  .cta h2{margin-bottom:.4rem}
+  .disclaimer{font-size:.85rem;color:var(--muted);text-align:center;max-width:720px;margin:1.6rem auto 0}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;padding:2rem 1rem 2.5rem}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><div class="logo">CG</div><strong>ClauseGuard</strong></div>
+    <h1>Read the contract before it reads you.</h1>
+    <p class="lead">Paste a freelance or contractor agreement and ClauseGuard flags risky clauses in plain English — non-competes, IP grabs, unlimited liability, vague payment terms — and tells you what to negotiate instead.</p>
+    <a class="btn btn-gold" href="#buy">Get ClauseGuard — launching soon on Whop</a>
+    <div class="pills">
+      <span class="pill">100% private — text never leaves your browser</span>
+      <span class="pill">No account · No upload · No tracking</span>
+      <span class="pill">Plain-English explanations</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>How it works</h2>
+    <p class="sub">No signup, no upload, no waiting. Three steps and you know where you stand.</p>
+    <div class="grid3">
+      <div class="card"><div class="num">1</div><h3>Paste the agreement</h3><p>Copy the full text of the freelance, contractor, or services agreement into ClauseGuard.</p></div>
+      <div class="card"><div class="num">2</div><h3>Get the flags</h3><p>ClauseGuard scans 25+ risky clause patterns across 10 categories and rates the overall risk.</p></div>
+      <div class="card"><div class="num">3</div><h3>Negotiate smarter</h3><p>Every finding explains why it matters and what to ask for — copy the report into your negotiation.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What it checks</h2>
+    <p class="sub">The traps freelancers actually sign: vague pay, IP grabs, lock-ins, and one-sided terms.</p>
+    <div class="checks">
+      <div>Non-compete &amp; non-solicitation clauses</div>
+      <div>Intellectual property assignment &amp; portfolio rights</div>
+      <div>Indemnification &amp; liability caps</div>
+      <div>Payment terms, schedules &amp; late fees</div>
+      <div>Termination rights &amp; kill fees</div>
+      <div>Scope, revisions &amp; change control</div>
+      <div>Confidentiality duration</div>
+      <div>Dispute resolution &amp; venue</div>
+      <div>Exclusivity &amp; auto-renewal</div>
+      <div>Warranties &amp; guarantees</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="privacy">
+      <h2>Private by design</h2>
+      <p>Many contracts contain NDAs that forbid sharing them — even with an AI chatbot. ClauseGuard runs entirely on your device. Your client's terms stay yours: nothing is uploaded, stored, or tracked. Ever.</p>
+    </div>
+  </section>
+
+  <section id="buy">
+    <div class="cta">
+      <h2>One payment. Yours forever.</h2>
+      <p class="sub" style="margin-bottom:1.4rem">Single one-time purchase, no subscription. Launching soon on Whop.</p>
+      <a class="btn btn-gold" href="#">Notify me at launch</a>
+    </div>
+    <p class="disclaimer"><strong>Important:</strong> ClauseGuard uses pattern matching, not legal reasoning. It can miss cleverly worded clauses and can flag harmless text. It is an educational screening tool — <strong>not legal advice</strong>. For high-value or complex agreements, consult a qualified lawyer.</p>
+  </section>
+
+</main>
+
+<footer>
+  ClauseGuard v1.0.0 · Runs 100% in your browser · No data collected · Not legal advice.
+</footer>
+
+</body>
+</html>
